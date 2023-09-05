@@ -13,6 +13,21 @@
         android:theme="@style/Theme.MedHub_APP"
         tools:targetApi="31">
         <activity
+            android:name=".registerPaciente"
+            android:exported="false" />
+        <activity
+            android:name=".registerMedico"
+            android:exported="false" />
+        <activity
+            android:name=".loginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".splashScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".splashScreen"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
